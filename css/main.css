@@ -1,0 +1,133 @@
+.hidden{
+    display: none;
+}
+
+/* SVG 1 */
+
+#badge:hover #bgcircle{
+    fill: #F1FF4F;
+}
+
+#contact{
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+#badge:hover #contact{
+    fill:rgb(255, 183, 0);
+    transform: rotate(130deg);
+    
+}
+
+/* SVG 2 */
+
+#square{
+    transition:
+      rotate 1s;
+    transform-origin: center;
+}
+
+#insta:hover #square{
+    fill:chartreuse;
+    rotate: 180deg;
+    
+}
+
+#insta:hover #lcircle{
+    fill:chartreuse;
+
+}
+
+
+#insta:hover #scircle{
+    fill:chartreuse;
+
+}
+
+/* SVG 3 */
+
+#up:hover #rec1{
+    transform: translateY(-70px);
+}
+
+#cross:hover #no{
+    fill: black;
+    transform: translateY(260px);
+    transition: all 1.5s ease;
+
+}
+
+/* SVG 4 */
+
+#red1 {
+    transition: all 1.5s ease;
+    transform-origin: center;
+}
+
+#red2{
+    transition: all 1.5s ease;
+    transform-origin: center;
+}
+#cross:hover #red1{
+    transform: rotate(135deg);
+
+}
+
+#cross:hover #red2{
+    transform: rotate(45deg);
+}
+
+/* SVG 5 */
+
+#target:hover .c-1{
+    transition:
+      ease-out 1s;
+    transform-origin: center;
+    transform: scale(3);
+}
+
+#target:hover .c-2{
+    transition:
+      ease-out 1s;
+    transform-origin: center;
+    transform: scale(2);
+}
+
+#target:hover .c-3{
+    transition:
+      ease-out 1s;
+    transform-origin: center;
+    transform: scale(1.2);
+}
+
+/* SVG 6 */
+
+#boom:hover #sq1{
+    transform: translateX(-70px);
+    transition:
+    ease-out 1s;
+  transform-origin: center;
+}
+
+#boom:hover #sq2{
+    transform: translateX(70px);
+    transition:
+    ease-out 1s;
+  transform-origin: center;
+}
+
+#boom:hover #sq3{
+    transform: translateY(70px);
+    transition:
+    ease-out 1s;
+  transform-origin: center;
+
+}
+
+#boom:hover #surprise{
+    fill: #efc800;
+    transition:
+    ease-in-out 0.5s;
+}
+
+

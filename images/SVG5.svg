@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="target" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 442 442">
+  <defs>
+    <style>
+      .c-1 {
+        fill: #ff0;
+      }
+
+      .c-1, .c-2, .c-3 {
+        stroke-width: 0px;
+      }
+
+      .c-3 {
+        fill: red;
+      }
+
+      .c-2 {
+        fill: blue;
+      }
+    </style>
+  </defs>
+  <circle class="c-3" cx="221" cy="221" r="221"/>
+  <circle class="c-2" cx="221" cy="221" r="167"/>
+  <circle class="c-1" cx="221" cy="221" r="79"/>
+</svg>
